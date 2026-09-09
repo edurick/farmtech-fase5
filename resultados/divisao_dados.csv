@@ -1,0 +1,157 @@
+linha_csv_zero_based,cenario,cultura,conjunto
+0,6,"Cocoa, beans",teste
+1,1,"Cocoa, beans",treino
+2,8,"Cocoa, beans",treino
+3,23,"Cocoa, beans",treino
+4,14,"Cocoa, beans",treino
+5,13,"Cocoa, beans",teste
+6,11,"Cocoa, beans",treino
+7,29,"Cocoa, beans",treino
+8,3,"Cocoa, beans",treino
+9,0,"Cocoa, beans",treino
+10,5,"Cocoa, beans",treino
+11,7,"Cocoa, beans",treino
+12,21,"Cocoa, beans",treino
+13,20,"Cocoa, beans",treino
+14,27,"Cocoa, beans",teste
+15,18,"Cocoa, beans",treino
+16,2,"Cocoa, beans",treino
+17,15,"Cocoa, beans",treino
+18,33,"Cocoa, beans",teste
+19,31,"Cocoa, beans",treino
+20,26,"Cocoa, beans",teste
+21,9,"Cocoa, beans",treino
+22,28,"Cocoa, beans",treino
+23,19,"Cocoa, beans",treino
+24,16,"Cocoa, beans",treino
+25,34,"Cocoa, beans",treino
+26,30,"Cocoa, beans",teste
+27,38,"Cocoa, beans",treino
+28,35,"Cocoa, beans",treino
+29,22,"Cocoa, beans",treino
+30,36,"Cocoa, beans",teste
+31,32,"Cocoa, beans",treino
+32,25,"Cocoa, beans",treino
+33,24,"Cocoa, beans",treino
+34,10,"Cocoa, beans",treino
+35,17,"Cocoa, beans",treino
+36,37,"Cocoa, beans",treino
+37,12,"Cocoa, beans",treino
+38,4,"Cocoa, beans",teste
+39,6,Oil palm fruit,teste
+40,1,Oil palm fruit,treino
+41,8,Oil palm fruit,treino
+42,23,Oil palm fruit,treino
+43,14,Oil palm fruit,treino
+44,13,Oil palm fruit,teste
+45,11,Oil palm fruit,treino
+46,29,Oil palm fruit,treino
+47,3,Oil palm fruit,treino
+48,0,Oil palm fruit,treino
+49,5,Oil palm fruit,treino
+50,7,Oil palm fruit,treino
+51,21,Oil palm fruit,treino
+52,20,Oil palm fruit,treino
+53,27,Oil palm fruit,teste
+54,18,Oil palm fruit,treino
+55,2,Oil palm fruit,treino
+56,15,Oil palm fruit,treino
+57,33,Oil palm fruit,teste
+58,31,Oil palm fruit,treino
+59,26,Oil palm fruit,teste
+60,9,Oil palm fruit,treino
+61,28,Oil palm fruit,treino
+62,19,Oil palm fruit,treino
+63,16,Oil palm fruit,treino
+64,34,Oil palm fruit,treino
+65,30,Oil palm fruit,teste
+66,38,Oil palm fruit,treino
+67,35,Oil palm fruit,treino
+68,22,Oil palm fruit,treino
+69,36,Oil palm fruit,teste
+70,32,Oil palm fruit,treino
+71,25,Oil palm fruit,treino
+72,24,Oil palm fruit,treino
+73,10,Oil palm fruit,treino
+74,17,Oil palm fruit,treino
+75,37,Oil palm fruit,treino
+76,12,Oil palm fruit,treino
+77,4,Oil palm fruit,teste
+78,6,"Rice, paddy",teste
+79,1,"Rice, paddy",treino
+80,8,"Rice, paddy",treino
+81,23,"Rice, paddy",treino
+82,14,"Rice, paddy",treino
+83,13,"Rice, paddy",teste
+84,11,"Rice, paddy",treino
+85,29,"Rice, paddy",treino
+86,3,"Rice, paddy",treino
+87,0,"Rice, paddy",treino
+88,5,"Rice, paddy",treino
+89,7,"Rice, paddy",treino
+90,21,"Rice, paddy",treino
+91,20,"Rice, paddy",treino
+92,27,"Rice, paddy",teste
+93,18,"Rice, paddy",treino
+94,2,"Rice, paddy",treino
+95,15,"Rice, paddy",treino
+96,33,"Rice, paddy",teste
+97,31,"Rice, paddy",treino
+98,26,"Rice, paddy",teste
+99,9,"Rice, paddy",treino
+100,28,"Rice, paddy",treino
+101,19,"Rice, paddy",treino
+102,16,"Rice, paddy",treino
+103,34,"Rice, paddy",treino
+104,30,"Rice, paddy",teste
+105,38,"Rice, paddy",treino
+106,35,"Rice, paddy",treino
+107,22,"Rice, paddy",treino
+108,36,"Rice, paddy",teste
+109,32,"Rice, paddy",treino
+110,25,"Rice, paddy",treino
+111,24,"Rice, paddy",treino
+112,10,"Rice, paddy",treino
+113,17,"Rice, paddy",treino
+114,37,"Rice, paddy",treino
+115,12,"Rice, paddy",treino
+116,4,"Rice, paddy",teste
+117,6,"Rubber, natural",teste
+118,1,"Rubber, natural",treino
+119,8,"Rubber, natural",treino
+120,23,"Rubber, natural",treino
+121,14,"Rubber, natural",treino
+122,13,"Rubber, natural",teste
+123,11,"Rubber, natural",treino
+124,29,"Rubber, natural",treino
+125,3,"Rubber, natural",treino
+126,0,"Rubber, natural",treino
+127,5,"Rubber, natural",treino
+128,7,"Rubber, natural",treino
+129,21,"Rubber, natural",treino
+130,20,"Rubber, natural",treino
+131,27,"Rubber, natural",teste
+132,18,"Rubber, natural",treino
+133,2,"Rubber, natural",treino
+134,15,"Rubber, natural",treino
+135,33,"Rubber, natural",teste
+136,31,"Rubber, natural",treino
+137,26,"Rubber, natural",teste
+138,9,"Rubber, natural",treino
+139,28,"Rubber, natural",treino
+140,19,"Rubber, natural",treino
+141,16,"Rubber, natural",treino
+142,34,"Rubber, natural",treino
+143,30,"Rubber, natural",teste
+144,38,"Rubber, natural",treino
+145,35,"Rubber, natural",treino
+146,22,"Rubber, natural",treino
+147,36,"Rubber, natural",teste
+148,32,"Rubber, natural",treino
+149,25,"Rubber, natural",treino
+150,24,"Rubber, natural",treino
+151,10,"Rubber, natural",treino
+152,17,"Rubber, natural",treino
+153,37,"Rubber, natural",treino
+154,12,"Rubber, natural",treino
+155,4,"Rubber, natural",teste

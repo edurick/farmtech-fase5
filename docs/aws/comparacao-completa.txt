@@ -1,0 +1,203 @@
+- region:
+  - button "Ask a Question":
+    - img "Ask a Question"
+- banner:
+  - link "AWS Pricing Calculator":
+    - /url: "#/"
+    - img "AWS Pricing Calculator"
+  - button:
+- complementary "Help panel":
+  - button "Open help panel":
+- main:
+  - region "Notifications":
+    - list:
+      - group "Successfully updated Amazon EC2 estimate.":
+        - paragraph: Successfully updated Amazon EC2 estimate.
+      - button "Close notification":
+  - navigation "Breadcrumbs":
+    - list:
+      - link "AWS Pricing Calculator":
+        - /url: javascript:void(0)
+        - generic: AWS Pricing Calculator
+      - 'link "FarmTech Fase 5 - alternativas: escolher uma linha, nao somar" [disabled]':
+        - generic: "FarmTech Fase 5 - alternativas: escolher uma linha, nao somar"
+    - list:
+      - link:
+        - /url: javascript:void(0)
+        - generic: AWS Pricing Calculator
+      - generic: "FarmTech Fase 5 - alternativas: escolher uma linha, nao somar"
+  - 'heading "FarmTech Fase 5 - alternativas: escolher uma linha, nao somar" [level=1]'
+  - link "Edit My Estimate":
+    - /url: "#"
+    - text: Edit
+    - img "Edit My Estimate":
+  - button "Export":
+    - text: Export
+  - button "Share" [active]
+  - heading "Estimate summary" [level=2]
+  - button "Info for estimate summary": Info
+  - generic: Upfront cost
+  - generic: 0.00 USD
+  - generic: Monthly cost
+  - generic: 51.92 USD
+  - generic: Total 12 months cost
+  - generic: 623.04 USD
+  - text: Includes upfront cost
+  - heading "Getting Started with AWS" [level=2]
+  - link "Get started for free":
+    - /url: https://portal.aws.amazon.com/billing/signup#/start/email
+  - link "Contact Sales":
+    - /url: https://aws.amazon.com/contact-us/?sc_ichannel=ha&sc_icampaign=acq_awspricingcalculatorcontactus&sc_icontent=pricingcalculatorcu&sc_detail=ctabutton&sc_isegment=en&sc_iplace=cta%20button&trkCampaign=aws_contact_us_sales&trk=awspricingcalculatorcta
+  - 'heading "FarmTech Fase 5 - alternativas: escolher uma linha, nao somar" [level=2]'
+  - button "Duplicate" [disabled]
+  - button "Delete" [disabled]
+  - button "Move to" [disabled]
+  - button "Create group"
+  - button "Add support"
+  - button "Add service"
+  - searchbox "Find resources"
+  - list:
+    - button "Previous page" [disabled]:
+    - button "Page 1 of all pages": "1"
+    - button "Next page" [disabled]:
+  - button "Preferences":
+  - region "Estimate Services Table":
+    - table "Estimate Services Table":
+      - rowgroup:
+        - row "Select all services in your estimate Service Name Status Upfront cost Monthly cost Description Region Config Summary":
+          - columnheader "Select all services in your estimate":
+            - generic "Select all services in your estimate":
+              - checkbox "Select all services in your estimate"
+          - columnheader "Service Name":
+            - button "Service Name":
+              - generic: Service Name
+            - button "Service Name"
+            - slider
+          - columnheader "Status":
+            - button "Status":
+              - generic: Status
+            - button "Status"
+            - slider
+          - columnheader "Upfront cost":
+            - button "Upfront cost":
+              - generic: Upfront cost
+            - button "Upfront cost"
+            - slider
+          - columnheader "Monthly cost":
+            - button "Monthly cost":
+              - generic: Monthly cost
+            - button "Monthly cost"
+            - slider
+          - columnheader "Description":
+            - button "Description":
+              - generic: Description
+            - button "Description"
+            - slider
+          - columnheader "Region":
+            - button "Region":
+              - generic: Region
+            - button "Region"
+            - slider
+          - columnheader "Config Summary":
+            - button "Config Summary":
+              - generic: Config Summary
+            - button "Config Summary"
+            - slider
+      - rowgroup:
+        - 'row "Select Amazon EC2 Amazon EC2 edit Amazon EC2 - 0.00 USD 8.63 USD Virginia - t4g.micro - Magnetic 50 GB US East (N. Virginia) Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 1), Advance EC2 instance (t4g.micro), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (50 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"':
+          - cell "Select Amazon EC2":
+            - generic "Select Amazon EC2":
+              - checkbox "Select Amazon EC2"
+          - cell "Amazon EC2 edit Amazon EC2":
+            - text: Amazon EC2
+            - button "edit Amazon EC2":
+          - cell "-":
+            - generic: "-"
+          - cell "0.00 USD":
+            - generic: 0.00 USD
+          - cell "8.63 USD":
+            - paragraph: 8.63 USD
+          - cell "Virginia - t4g.micro - Magnetic 50 GB":
+            - button "Virginia - t4g.micro - Magnetic 50 GB":
+              - paragraph: Virginia - t4g.micro - Magnetic 50 GB
+          - cell "US East (N. Virginia)":
+            - generic: US East (N. Virginia)
+          - 'cell "Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 1), Advance EC2 instance (t4g.micro), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (50 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"':
+            - 'button "Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 1), Advance EC2 instance (t4g.micro), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (50 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"':
+              - paragraph: "Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 1), Advance EC2 instance (t4g.micro), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (50 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+        - 'row "Select Amazon EC2 Amazon EC2 edit Amazon EC2 - 0.00 USD 15.78 USD Sao Paulo - t4g.micro - Magnetic 50 GB South America (Sao Paulo) Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 1), Advance EC2 instance (t4g.micro), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (50 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"':
+          - cell "Select Amazon EC2":
+            - generic "Select Amazon EC2":
+              - checkbox "Select Amazon EC2"
+          - cell "Amazon EC2 edit Amazon EC2":
+            - text: Amazon EC2
+            - button "edit Amazon EC2":
+          - cell "-":
+            - generic: "-"
+          - cell "0.00 USD":
+            - generic: 0.00 USD
+          - cell "15.78 USD":
+            - paragraph: 15.78 USD
+          - cell "Sao Paulo - t4g.micro - Magnetic 50 GB":
+            - button "Sao Paulo - t4g.micro - Magnetic 50 GB":
+              - paragraph: Sao Paulo - t4g.micro - Magnetic 50 GB
+          - cell "South America (Sao Paulo)":
+            - generic: South America (Sao Paulo)
+          - 'cell "Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 1), Advance EC2 instance (t4g.micro), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (50 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"':
+            - 'button "Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 1), Advance EC2 instance (t4g.micro), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (50 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"':
+              - paragraph: "Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 1), Advance EC2 instance (t4g.micro), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (50 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+        - 'row "Select Amazon EC2 Amazon EC2 edit Amazon EC2 - 0.00 USD 17.38 USD Sao Paulo - t4g.micro - gp3 SSD 50 GB South America (Sao Paulo) Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 1), Advance EC2 instance (t4g.micro), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (50 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"':
+          - cell "Select Amazon EC2":
+            - generic "Select Amazon EC2":
+              - checkbox "Select Amazon EC2"
+          - cell "Amazon EC2 edit Amazon EC2":
+            - text: Amazon EC2
+            - button "edit Amazon EC2":
+          - cell "-":
+            - generic: "-"
+          - cell "0.00 USD":
+            - generic: 0.00 USD
+          - cell "17.38 USD":
+            - paragraph: 17.38 USD
+          - cell "Sao Paulo - t4g.micro - gp3 SSD 50 GB":
+            - button "Sao Paulo - t4g.micro - gp3 SSD 50 GB":
+              - paragraph: Sao Paulo - t4g.micro - gp3 SSD 50 GB
+          - cell "South America (Sao Paulo)":
+            - generic: South America (Sao Paulo)
+          - 'cell "Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 1), Advance EC2 instance (t4g.micro), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (50 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"':
+            - 'button "Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 1), Advance EC2 instance (t4g.micro), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (50 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"':
+              - paragraph: "Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 1), Advance EC2 instance (t4g.micro), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (50 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+        - 'row "Select Amazon EC2 Amazon EC2 edit Amazon EC2 - 0.00 USD 10.13 USD Virginia - t4g.micro - gp3 SSD 50 GB US East (N. Virginia) Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 1), Advance EC2 instance (t4g.micro), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (50 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"':
+          - cell "Select Amazon EC2":
+            - generic "Select Amazon EC2":
+              - checkbox "Select Amazon EC2"
+          - cell "Amazon EC2 edit Amazon EC2":
+            - text: Amazon EC2
+            - button "edit Amazon EC2":
+          - cell "-":
+            - generic: "-"
+          - cell "0.00 USD":
+            - generic: 0.00 USD
+          - cell "10.13 USD":
+            - paragraph: 10.13 USD
+          - cell "Virginia - t4g.micro - gp3 SSD 50 GB":
+            - button "Virginia - t4g.micro - gp3 SSD 50 GB":
+              - paragraph: Virginia - t4g.micro - gp3 SSD 50 GB
+          - cell "US East (N. Virginia)":
+            - generic: US East (N. Virginia)
+          - 'cell "Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 1), Advance EC2 instance (t4g.micro), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (50 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"':
+            - 'button "Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 1), Advance EC2 instance (t4g.micro), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (50 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"':
+              - paragraph: "Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 1), Advance EC2 instance (t4g.micro), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (50 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+  - heading "Acknowledgement" [level=5]
+  - text: AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.
+  - link "Learn more":
+    - /url: https://aws.amazon.com/calculator/calculator-assumptions/
+    - text: Learn more
+    - img "about Pricing assumption. Opens in a new tab":
+  - list:
+    - link "Privacy":
+      - /url: https://aws.amazon.com/privacy
+    - link "Site terms":
+      - /url: https://aws.amazon.com/terms
+    - button "Cookie preferences"
+    - generic: © 2026, Amazon Web Services, Inc. or its affiliates. All rights reserved.

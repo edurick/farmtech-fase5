@@ -1,0 +1,13 @@
+regiao,codigo,instancia,disco,usd_hora,ec2_mensal_exato,ebs_mensal,total_mensal_exato,total_mensal_calculadora,total_anual_calculadora,total_anual_sem_arredondamento_mensal
+Virgínia do Norte,us-east-1,t4g.micro,Magnetic,0.0084,6.132,2.5,8.632,8.63,103.56,103.58
+Virgínia do Norte,us-east-1,t3a.micro,Magnetic,0.0094,6.862,2.5,9.362,9.36,112.32,112.34
+Virgínia do Norte,us-east-1,t3.micro,Magnetic,0.0104,7.592,2.5,10.092,10.09,121.08,121.1
+Virgínia do Norte,us-east-1,t4g.micro,gp3 SSD,0.0084,6.132,4.0,10.132,10.13,121.56,121.58
+Virgínia do Norte,us-east-1,t3a.micro,gp3 SSD,0.0094,6.862,4.0,10.862,10.86,130.32,130.34
+Virgínia do Norte,us-east-1,t3.micro,gp3 SSD,0.0104,7.592,4.0,11.592,11.59,139.08,139.1
+São Paulo,sa-east-1,t4g.micro,Magnetic,0.0134,9.782,6.0,15.782,15.78,189.36,189.38
+São Paulo,sa-east-1,t3a.micro,Magnetic,0.0151,11.023,6.0,17.023,17.02,204.24,204.28
+São Paulo,sa-east-1,t3.micro,Magnetic,0.0168,12.264,6.0,18.264,18.26,219.12,219.17
+São Paulo,sa-east-1,t4g.micro,gp3 SSD,0.0134,9.782,7.6,17.382,17.38,208.56,208.58
+São Paulo,sa-east-1,t3a.micro,gp3 SSD,0.0151,11.023,7.6,18.623,18.62,223.44,223.48
+São Paulo,sa-east-1,t3.micro,gp3 SSD,0.0168,12.264,7.6,19.864,19.86,238.32,238.37

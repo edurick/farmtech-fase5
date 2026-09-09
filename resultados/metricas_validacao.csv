@@ -1,0 +1,8 @@
+modelo,RMSE_CV,desvio_RMSE_CV,MAE_CV,R2_CV,parametros
+Random Forest,7900.047964764342,1832.96699083651,4439.984639261874,0.9867847897966732,"{""modelo__regressor__max_depth"": null, ""modelo__regressor__min_samples_leaf"": 2}"
+Gradient Boosting,7971.318679709514,1685.739597122296,4839.290478723392,0.9865942676551223,"{""modelo__regressor__learning_rate"": 0.1, ""modelo__regressor__max_depth"": 2}"
+Regressão Linear,8594.691620172485,1209.0920136181817,5425.591663652749,0.9846481394277674,{}
+Média por cultura,8642.961393895228,1156.8889466340456,5180.894357142855,0.9845029989631028,sem busca
+Árvore de Decisão,8891.392587171613,1499.0568292139667,5158.547110597734,0.9835756634950054,"{""modelo__regressor__max_depth"": 3, ""modelo__regressor__min_samples_leaf"": 2}"
+SVR (RBF),12047.246427948954,3912.656761845413,7543.766103379698,0.9684275294456312,"{""modelo__regressor__C"": 10, ""modelo__regressor__epsilon"": 0.01, ""modelo__regressor__gamma"": 0.1}"
+Média global,70370.74253130273,2733.737315447212,59958.73382142857,-0.0010015156044596019,sem busca

@@ -1,0 +1,324 @@
+- banner:
+  - link "AWS Pricing Calculator":
+    - /url: "#/"
+    - img "AWS Pricing Calculator"
+  - button:
+- complementary "Help panel":
+  - button "Open help panel":
+- main:
+  - region "Notifications"
+  - navigation "Breadcrumbs":
+    - list:
+      - link "AWS Pricing Calculator":
+        - /url: javascript:void(0)
+        - generic: AWS Pricing Calculator
+      - link "My Estimate":
+        - /url: javascript:void(0)
+        - generic: My Estimate
+      - 'link "Create estimate: Configure Amazon EC2" [disabled]':
+        - generic: "Create estimate: Configure Amazon EC2"
+    - list:
+      - link:
+        - /url: javascript:void(0)
+        - generic: AWS Pricing Calculator
+      - link:
+        - /url: javascript:void(0)
+        - generic: My Estimate
+      - generic: "Create estimate: Configure Amazon EC2"
+  - generic: Step 1
+  - paragraph:
+    - link "Add service":
+      - /url: "#/addService"
+  - generic: Step 2
+  - paragraph: Configure service
+  - 'heading "Create estimate: Configure Amazon EC2" [level=1]'
+  - button "Amazon EC2 Info": Info
+  - generic: Description
+  - textbox "Description - optional":
+    - /placeholder: Enter a description for your estimate
+    - text: Virginia - t4g.micro - Magnetic 50 GB
+  - text: Choose a location type
+  - button "Info for location type": Info
+  - button "Choose a location typeInfo for location type Region":
+    - generic: Region
+  - generic: Choose a Region
+  - button "Choose a Region US East (N. Virginia)":
+    - generic: US East (N. Virginia)
+  - heading "EC2 specifications" [level=3]:
+    - generic: EC2 specifications
+  - button "EC2 specifications Info": Info
+  - generic: Tenancy
+  - generic: Choose the tenancy type to run your Amazon EC2 instances on.
+  - button "Tenancy Shared Instances":
+    - generic: Shared Instances
+  - generic: Operating system
+  - generic: Choose the operating system to run your Amazon EC2 instances on.
+  - button "Operating system Linux":
+    - generic: Linux
+  - generic: Workloads
+  - generic: Choose the graph that best represents your monthly workload
+  - radiogroup "Workloads":
+    - radio "Constant usage" [checked]
+    - button "Constant usage"
+    - radio "Daily spike traffic"
+    - button "Daily spike traffic"
+    - radio "Weekly spike traffic"
+    - button "Weekly spike traffic"
+    - radio "Monthly spike traffic"
+    - button "Monthly spike traffic"
+  - generic: Number of instances
+  - generic: Please specify the total number of Instances that you need each month.
+  - spinbutton "Number of instances Enter amount": "1"
+  - 'heading "EC2 Instances (1) Based on your inputs, this is the lowest-cost EC2 instance: t4g.micro Chosen instance: t4g.micro | Family: t4g | 2vCPU | 1 GiB Memory" [level=4]':
+    - heading "EC2 Instances (1)" [level=4]:
+      - strong: EC2 Instances
+      - generic: (1)
+    - paragraph:
+      - text: "Based on your inputs, this is the lowest-cost EC2 instance:"
+      - strong: t4g.micro
+    - paragraph:
+      - text: "Chosen instance:"
+      - strong: t4g.micro
+      - text: "|"
+      - strong: "Family: t4g"
+      - text: "|"
+      - strong: 2vCPU
+      - text: "|"
+      - strong: 1 GiB Memory
+  - generic: Search instance type
+  - searchbox "Search instance types Search by instance name or filter by keyword": t4g.micro
+  - button "clear input":
+  - text: Instance family
+  - link "Instance family Info":
+    - /url: https://aws.amazon.com/ec2/instance-types/
+    - text: Info
+  - button "Instance family Instance family Info Any Instance family":
+    - generic: Any Instance family
+  - generic: vCPUs
+  - button "vCPUs Any vCPUs":
+    - generic: Any vCPUs
+  - generic: Memory (GiB)
+  - button "Memory (GiB) Any Memory (GiB)":
+    - generic: Any Memory (GiB)
+  - generic: Network performance
+  - button "Network performance Any Network Performance":
+    - generic: Any Network Performance
+  - checkbox "Show only current generation instances." [checked]
+  - generic: Show only current generation instances.
+  - list:
+    - button "Previous page" [disabled]:
+    - button "Page 1 of all pages": "1"
+    - button "Next page" [disabled]:
+  - button "Preferences":
+  - region "EC2 selection":
+    - table "EC2 selection":
+      - rowgroup:
+        - row "Instance name vCPUs Memory Network Performance Storage On-Demand Hourly Cost CurrentGeneration Potential Effective Hourly Cost (Savings %)":
+          - columnheader
+          - columnheader "Instance name":
+            - button "Instance name":
+              - generic: Instance name
+          - columnheader "vCPUs":
+            - button "vCPUs":
+              - generic: vCPUs
+          - columnheader "Memory":
+            - button "Memory":
+              - generic: Memory
+          - columnheader "Network Performance":
+            - button "Network Performance":
+              - generic: Network Performance
+          - columnheader "Storage":
+            - button "Storage":
+              - generic: Storage
+          - columnheader "On-Demand Hourly Cost":
+            - button "On-Demand Hourly Cost":
+              - generic: On-Demand Hourly Cost
+          - columnheader "CurrentGeneration":
+            - button "CurrentGeneration":
+              - generic: CurrentGeneration
+          - columnheader "Potential Effective Hourly Cost (Savings %)":
+            - button "Potential Effective Hourly Cost (Savings %)":
+              - button "Potential Effective Hourly Cost (Savings %)"
+      - rowgroup:
+        - row "t4g.micro 2 1 GiB Up to 5 Gigabit EBS only 0.0084 Yes 0.0032 (62%)":
+          - cell:
+            - radio [checked]
+          - cell "t4g.micro":
+            - generic: t4g.micro
+          - cell "2":
+            - generic: "2"
+          - cell "1 GiB":
+            - generic: 1 GiB
+          - cell "Up to 5 Gigabit":
+            - generic: Up to 5 Gigabit
+          - cell "EBS only":
+            - generic: EBS only
+          - cell "0.0084":
+            - generic: "0.0084"
+          - cell "Yes":
+            - generic: "Yes"
+          - cell "0.0032 (62%)":
+            - generic: 0.0032 (62%)
+  - heading "Payment options" [level=4]
+  - generic: "Estimated commitment price based on the following selections:"
+  - text: "Instance type:"
+  - strong: t4g.micro
+  - text: "Operating system:"
+  - strong: Linux
+  - generic: Select the container and options to find your best price
+  - radio "Compute Savings Plans"
+  - text: Compute Savings Plans
+  - text: One plan that automatically applies to all usage on EC2, Fargate, and Lambda. Up to 66% discount.
+  - link "Learn more about Compute Savings Plan. Opens in a new tab":
+    - /url: https://docs.aws.amazon.com/savingsplans/latest/userguide/what-is-savings-plans.html
+    - text: Learn more
+  - text: Reservation term
+  - radio "1 year"
+  - text: 1 year
+  - radio "3 year" [checked]
+  - text: 3 year
+  - text: Payment Options
+  - radio "No upfront" [checked]
+  - text: No upfront
+  - radio "Partial upfront"
+  - text: Partial upfront
+  - radio "All upfront"
+  - text: All upfront
+  - generic: "Upfront:"
+  - text: "0.00"
+  - generic: "Monthly:"
+  - generic: 3.07/Month
+  - radio "EC2 Instance Savings Plans"
+  - text: EC2 Instance Savings Plans
+  - text: Get deeper discount when you only need one instance family and region. Up to 72% discount.
+  - link "Learn more about Instance Savings Plans. Opens in a new tab":
+    - /url: https://docs.aws.amazon.com/savingsplans/latest/userguide/what-is-savings-plans.html
+    - text: Learn more
+  - text: Reservation term
+  - radio "1 year"
+  - text: 1 year
+  - radio "3 year" [checked]
+  - text: 3 year
+  - text: Payment Options
+  - radio "No upfront" [checked]
+  - text: No upfront
+  - radio "Partial upfront"
+  - text: Partial upfront
+  - radio "All upfront"
+  - text: All upfront
+  - generic: "Upfront:"
+  - text: "0.00"
+  - generic: "Monthly:"
+  - generic: 2.63/Month
+  - radio "On-Demand" [checked]
+  - text: On-Demand
+  - text: Maximize flexibility.
+  - link "Learn more about On-Demand Intances. Opens in a new tab":
+    - /url: https://aws.amazon.com/ec2/pricing/on-demand/
+    - text: Learn more
+  - text: Expected utilization
+  - text: Enter the expected usage of Amazon EC2 instances
+  - paragraph: Usage
+  - spinbutton "Usage": "100"
+  - paragraph: Usage type
+  - button "Usage type Utilization percent per month":
+    - generic: Utilization percent per month
+  - img "Info":
+  - generic: Note that for usage less than 100%, the calculator assumes that the attached EBS volume is deleted while the instance is not running. Keep in mind that volumes are billed as long as they are provisioned in your account, even while attached to a stopped instance.
+  - generic: "Instance:"
+  - generic: 0.0084/Hour
+  - generic: "Monthly:"
+  - generic: 6.13/Month
+  - radio "Spot Instances"
+  - text: Spot Instances
+  - text: Minimize cost by leveraging EC2's spare capacity. Recommended for fault tolerant and interruption tolerant applications.
+  - link "Learn more about Spot Instances. Opens in a new tab":
+    - /url: https://aws.amazon.com/ec2/spot/
+    - text: Learn more
+  - generic: The historical average discount for t4g.micro is 63%
+  - text: Assume percentage discount for my estimate
+  - spinbutton "Assume percentage discount for my estimate": "-1"
+  - img "Info":
+  - generic: Actual spot instance pricing varies
+  - generic: With spot instances, you pay the spot price that's in effect for the time period your instance is running
+  - generic: "Instance:"
+  - generic: 0.0084/Hour
+  - generic: "Monthly:"
+  - generic: 6.19/Month
+  - heading "Other purchasing options" [level=5]:
+    - button "Other purchasing options":
+      - generic: Other purchasing options
+  - heading "Show calculations for On-Demand" [level=4]:
+    - button "Show calculations for On-Demand" [expanded]:
+      - generic: Show calculations
+  - group "Show calculations for On-Demand":
+    - paragraph:
+      - text: 1 instances x 0.0084 USD On Demand hourly cost x 730 hours in a month = 6.132000 USD
+      - text: "On-Demand instances (monthly): 6.132000 USD"
+  - button "Amazon Elastic Block Store (EBS) - optional Amazon Elastic Block Store (EBS) Info" [expanded]:
+    - heading "Amazon Elastic Block Store (EBS) - optional" [level=3]:
+      - text: Amazon Elastic Block Store (EBS)
+      - generic: "- optional"
+    - button "Amazon Elastic Block Store (EBS) Info": Info
+  - group "Amazon Elastic Block Store (EBS) - optional Amazon Elastic Block Store (EBS) Info":
+    - img "info":
+    - generic: Calculating EBS snapshots
+    - link "Learn more about how EBS snapshot prices are calculated. Opens in a new tab":
+      - /url: https://docs.aws.amazon.com/pricing-calculator/latest/userguide/advanced-estimate.html#ec2-advanced-memory
+      - text: Learn more
+    - text: on how EBS snapshot prices are calculated.
+    - generic: Storage for each EC2 instance
+    - generic: Choose EBS volume storage type.
+    - button "Storage for each EC2 instance Magnetic (previous generation)":
+      - generic: Magnetic (previous generation)
+    - generic: Storage amount
+    - spinbutton "Storage amount Value": "50"
+    - generic: Unit
+    - button "Unit Storage amount GB":
+      - generic: GB
+    - generic: Snapshot Frequency
+    - button "Snapshot Frequency No snapshot storage":
+      - generic: No snapshot storage
+    - heading "Show calculations for Amazon Elastic Block Store (EBS)" [level=4]:
+      - button "Show calculations for Amazon Elastic Block Store (EBS)" [expanded] [active]:
+        - generic: Show calculations
+    - group "Show calculations for Amazon Elastic Block Store (EBS)":
+      - generic: 730 total EC2 hours / 730 hours in a month = 1.00 instance months
+      - generic: 50 GB x 1.00 instance months x 0.05 USD = 2.50 USD (EBS Storage Cost)
+      - strong: "EBS Storage Cost: 2.50 USD"
+      - generic: "Amazon Elastic Block Store (EBS) total cost (monthly): 2.50 USD"
+  - button "Detailed monitoring - optional Detailed monitoring Info":
+    - heading "Detailed monitoring - optional" [level=3]:
+      - text: Detailed monitoring
+      - generic: "- optional"
+    - button "Detailed monitoring Info": Info
+  - button "Data transfer - optional":
+    - heading "Data transfer - optional" [level=3]:
+      - text: Data transfer
+      - generic: "- optional"
+  - button "Additional costs - optional":
+    - heading "Additional costs - optional" [level=3]:
+      - text: Additional costs
+      - generic: "- optional"
+  - heading "Acknowledgement" [level=5]
+  - text: AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.
+  - link "Learn more":
+    - /url: https://aws.amazon.com/calculator/calculator-assumptions/
+    - text: Learn more
+    - img "about Pricing assumption. Opens in a new tab":
+  - strong: "Total Upfront cost:"
+  - text: 0.00 USD
+  - strong: "Total Monthly cost:"
+  - text: 8.63 USD
+  - button "Show Details":
+    - text: Show Details
+  - button "Cancel"
+  - button "Save and view summary"
+  - button "Save and add service"
+  - list:
+    - link "Privacy":
+      - /url: https://aws.amazon.com/privacy
+    - link "Site terms":
+      - /url: https://aws.amazon.com/terms
+    - button "Cookie preferences"
+    - generic: © 2026, Amazon Web Services, Inc. or its affiliates. All rights reserved.

@@ -1,0 +1,30 @@
+{
+  "autor": "Eduardo Rick",
+  "rm": "573745",
+  "sha256_csv": "07b3335f497e08e705b5835ee334426ac16cb24732c1bfaa994254d39f771b1b",
+  "n_registros": 156,
+  "n_cenarios": 39,
+  "n_treino": 124,
+  "n_teste": 32,
+  "vencedor_cv": "Random Forest",
+  "teste_vencedor": {
+    "MAE": 3597.217064737781,
+    "RMSE": 5016.929371396765,
+    "R2": 0.9947735733094123
+  },
+  "teste_media_cultura": {
+    "MAE": 4077.381048387098,
+    "RMSE": 5427.702621532315,
+    "R2": 0.9938826831007503
+  },
+  "k": 3,
+  "silhouette": 0.3987231285320193,
+  "outliers": 0,
+  "ari_sementes": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}
