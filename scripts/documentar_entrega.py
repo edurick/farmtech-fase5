@@ -66,7 +66,7 @@ conversões sem comprovação.
 
 | Entrega | YouTube — não listado | Limite |
 |---|---|---|
-| 1 — Machine Learning | **PENDENTE: inserir link do vídeo de ML** | 5 minutos |
+| 1 — Machine Learning | [Assistir à demonstração de Machine Learning](https://youtu.be/z8DZlMXLSPU) | 5 minutos |
 | 2 — Computação em Nuvem | **PENDENTE: inserir link do vídeo de AWS** | 5 minutos |
 
 
